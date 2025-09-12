@@ -8,7 +8,7 @@ import logo from '../../assets/Images/logo.png'
 const Menu = () => {
     return (
         <>
-         <Navbar expand="lg" className="bg-dark w-100 " data-bs-theme="dark" >
+         <Navbar expand="lg" sticky="top" className="bg-dark w-100 navbarCustom" data-bs-theme="dark" >
 
       <Container fluid>
         <Navbar.Brand href="#home" className="d-flex align-items-center ms-5">

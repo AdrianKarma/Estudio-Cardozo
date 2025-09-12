@@ -2,7 +2,7 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;  
-  background-color: #050709;
+  background-color: #ffffff;
 }
 
 .main {
@@ -12,7 +12,10 @@
 
 
 }
-
+body, html {
+  margin: 0;
+  padding: 0;
+}
 
 .social{
   text-decoration: none;
@@ -32,4 +35,90 @@
 
 .social:hover, .social2:hover{
      color: rgb(106, 108, 233);
+}
+
+.gradient-button {
+  background: linear-gradient(90deg, #b6138e 0%, #740974 100%);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  transition: 0.3s ease-in-out;
+}
+
+.gradient-button:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+}
+
+
+
+.contactoCards{
+   
+    justify-content: center;
+       display: flex;
+  gap: 10px;        /* espacio entre botones */
+   margin-top: auto; /* empuja hacia abajo */
+      
+}
+
+
+.TextoAbogada {
+  display: flex;
+  flex-direction: column;  /* apila en columna */
+  justify-content: space-between;
+  margin-left: 10px ;
+}
+
+
+
+.CardContacto {
+  padding: 5px;
+  background-color: #740974;
+  border-radius: 10%;
+  width: 100px;
+  height: 80px;
+  display: flex;              /* centra contenido */
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.CardContainer{
+      
+   
+
+     
+}
+
+.AreaCard{
+   
+ background-color: rgb(219, 202, 236);
+     
+}
+
+.ConteinerFondoAbogada{
+      width: 100%;
+  height: 600px;       /* o el alto que quieras */
+  object-fit: cover;
+  display: block; 
+   position: relative;
+    filter: blur(2px);
+}
+
+
+.TextoFondoAbogada{
+  position: absolute;   /* Para superponer encima de la imagen */
+  top: 30vh;             /* Centra vertical */
+  left: 10%;            /* Centra horizontal */
+  
+  color: rgb(255, 255, 255);         /* Color del texto */
+  
+ 
+
+}
+
+.navbarCustom{
+  background-color: rgba(12, 12, 12, 0.9)!important ;
 }
