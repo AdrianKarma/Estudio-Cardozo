@@ -1,7 +1,7 @@
 import React from 'react';
 import FotoAbogada from "../../assets/Images/Abogada.jpg"
 import { Container } from 'react-bootstrap';
-
+import { Fade } from "react-awesome-reveal";
 const Abogada = () => {
     return (
         <Container className='d-flex flex-column flex-md-row align-items-center mt-5'>
@@ -12,9 +12,10 @@ const Abogada = () => {
 
             {/* Texto */}
             <div className='TextoAbogada ms-md-4 d-flex flex-column'>
+               <Fade direction='down'>
                 <h2>Dra. Carla Cardozo</h2>
                 <h4>Abogada – Estudio Cardozo & Asociados</h4>
-
+</Fade>
                 <p>
                     Defiendo tus derechos con compromiso, claridad y cercanía.  
                     Mi misión es que entiendas cada paso de tu proceso legal y te sientas acompañado con confianza y profesionalismo.  

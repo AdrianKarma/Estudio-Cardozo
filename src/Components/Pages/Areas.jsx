@@ -1,11 +1,14 @@
 import React from 'react';
 import { Card, Container } from 'react-bootstrap';
-
+import { Fade } from "react-awesome-reveal";
 const Areas = () => {
   return (
     <Container className="mt-5">
-      <div className="row justify-content-center">
+     
+          <div className="row justify-content-center">
+           
         <div className="col-12 col-sm-6 col-lg-3 mb-4 ">
+          <Fade direction='left'>
           <Card className="h-100 AreaCard">
             <Card.Body className="text-center">
                 <i className="bi bi-people" style={{ fontSize: '2rem', color: '#740974' }}></i>
@@ -17,11 +20,13 @@ const Areas = () => {
               <Card.Link href="#">Card Link</Card.Link>
               <Card.Link href="#">Another Link</Card.Link>
             </Card.Body>
-          </Card>
+          </Card></Fade>
+          
         </div>
 
+
         <div className="col-12 col-sm-6 col-lg-3 mb-4 ">
-          <Card className="h-100 AreaCard">
+         <Fade direction='left'>  <Card className="h-100 AreaCard">
             <Card.Body className="text-center">
                 <i className="bi-building" style={{ fontSize: '2rem', color: '#740974' }}></i>
               <Card.Title className='mb-5'>Laboral</Card.Title>
@@ -32,11 +37,12 @@ const Areas = () => {
               <Card.Link href="#">Card Link</Card.Link>
               <Card.Link href="#">Another Link</Card.Link>
             </Card.Body>
-          </Card>
+          </Card></Fade>
         </div>
 
+
         <div className="col-12 col-sm-6 col-lg-3 mb-4 ">
-          <Card className="h-100 AreaCard ">
+         <Fade direction='left'>  <Card className="h-100 AreaCard ">
             <Card.Body className="text-center">
                 <i className="bi-file-text" style={{ fontSize: '2rem', color: '#740974' }}></i>
               <Card.Title className='mb-5'>Civil y Comercial</Card.Title>
@@ -47,11 +53,12 @@ const Areas = () => {
               <Card.Link href="#">Card Link</Card.Link>
               <Card.Link href="#">Another Link</Card.Link>
             </Card.Body>
-          </Card>
+          </Card></Fade>
         </div>
 
+
         <div className="col-12 col-sm-6 col-lg-3 mb-4 ">
-          <Card className="h-100 AreaCard">
+         <Fade direction='left'>  <Card className="h-100 AreaCard">
             <Card.Body className="text-center">
                 <i className="bi-shield-lock" style={{ fontSize: '2rem', color: '#740974' }}></i>
               <Card.Title className='mb-5'>Penal</Card.Title>
@@ -62,8 +69,9 @@ const Areas = () => {
               <Card.Link href="#">Card Link</Card.Link>
               <Card.Link href="#">Another Link</Card.Link>
             </Card.Body>
-          </Card>
+          </Card></Fade>
         </div>
+        
       </div>
     </Container>
   );

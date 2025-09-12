@@ -133,3 +133,12 @@ body, html {
 .logoNavbar{
   width: 70px;
 }
+
+.containerContact{
+   background: rgb(219, 202, 236, 0.2); /* semitransparente */
+  backdrop-filter: blur(10px); /* difumina el fondo */
+  -webkit-backdrop-filter: blur(10px); /* para Safari */
+  border-radius: 12px;
+  padding: 20px;
+
+}

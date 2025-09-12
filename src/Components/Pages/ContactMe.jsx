@@ -122,7 +122,7 @@ const ContactMe = () => {
             
           </Form.Text>
             </div>
-            <Button type="submit" variant="primary" className="buttonNav rounded-0">
+            <Button type="submit" variant="primary" className="gradient-button rounded-0">
               Enviar
             </Button>
             <p className="mt-3 status-message ">{status}</p>
