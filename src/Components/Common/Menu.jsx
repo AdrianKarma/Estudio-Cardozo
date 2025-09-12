@@ -16,9 +16,9 @@ const Menu = () => {
     src={logo}
     alt="Logo Estudio Cardozo"
 
-    className="d-inline-block align-top me-2"
+    className="d-inline-block align-top me-2 logoNavbar"
   />
-  <h2>Estudio Cardozo & Asociados</h2>
+  <h2>Estudio Cardozo</h2>
 </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

@@ -23,11 +23,32 @@ const Abogada = () => {
                 </p>
 
                 {/* Botones de contacto pegados abajo */}
-                <div className='contactoCards d-flex gap-2 mt-auto'>
-                    <div className='CardContacto'>Whatsapp</div>
-                    <div className='CardContacto'>Facebook</div>
-                    <div className='CardContacto'>Email</div>
-                </div>
+               <div className='contactoCards d-flex gap-2 mt-auto'>
+  <a 
+    href="https://wa.me/5493816585961" 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    className="CardContacto"
+  >
+    Whatsapp
+  </a>
+
+  <a 
+    href="https://www.facebook.com/Abogada.Carla.Cardozo" 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    className="CardContacto"
+  >
+    Facebook
+  </a>
+
+  <a 
+    href="mailto:carla.nazarena.cardozo@gmail.com" 
+    className="CardContacto"
+  >
+    Email
+  </a>
+</div>
             </div>
         </Container>
     );

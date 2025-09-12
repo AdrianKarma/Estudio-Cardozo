@@ -53,10 +53,11 @@ const ContactMe = () => {
     <Container className="p-5 containerContact mb-5 regularTextContact" id="ContactMe">
       <Row className="justify-content-left mb-3">
         <Col xs={12}>
-          <h2 className="TitleContact">Contact</h2>
-          <p className="subTitleContact">
-            I’d love to hear from you! Please leave me a message, <br /> and I’ll get back to you as soon as I can.
-          </p>
+          <h2 className="TitleContact">Contáctanos</h2>
+       <p className="subTitleContact">
+  Quedo a su disposición para atender su consulta. Por favor, deje su mensaje y me pondré en contacto con usted a la brevedad.
+</p>
+
         </Col>
       </Row>
 
@@ -67,7 +68,7 @@ const ContactMe = () => {
               <Form.Control
                 as="textarea"
                 rows={8}
-                placeholder="Let me know how I can help with your financial goals..."
+                placeholder="Cuéntenos cómo podemos asistirle con su caso o consulta legal..."
                 className="mb-3 rounded-0 textBox"
                 name="message"
                 value={formData.message}

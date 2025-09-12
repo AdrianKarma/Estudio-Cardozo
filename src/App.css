@@ -13,8 +13,7 @@
 
 }
 body, html {
-  margin: 0;
-  padding: 0;
+
 }
 
 .social{
@@ -111,7 +110,7 @@ body, html {
 .TextoFondoAbogada{
   position: absolute;   /* Para superponer encima de la imagen */
   top: 30vh;             /* Centra vertical */
-  left: 10%;            /* Centra horizontal */
+  left: 1%;            /* Centra horizontal */
   
   color: rgb(255, 255, 255);         /* Color del texto */
   
@@ -121,4 +120,16 @@ body, html {
 
 .navbarCustom{
   background-color: rgba(12, 12, 12, 0.9)!important ;
+  
+}
+
+.navbarCustom .collapsing {
+  transition: height 0.5s ease !important;
+}
+
+.navbarCustom .collapse {
+  transition: height 0.8s ease !important;
+}
+.logoNavbar{
+  width: 70px;
 }

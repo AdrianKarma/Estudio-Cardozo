@@ -42,7 +42,7 @@ const Areas = () => {
               <Card.Title className='mb-5'>Civil y Comercial</Card.Title>
              
               <Card.Text>
-               Brindamos orientación en contratos, obligaciones y resolución de conflictos, protegiendo tus intereses en cada situación legal.
+              Asesoramos en contratos, obligaciones civiles y comerciales, así como en conflictos legales relacionados con bienes, sociedades y negocios.
               </Card.Text>
               <Card.Link href="#">Card Link</Card.Link>
               <Card.Link href="#">Another Link</Card.Link>
