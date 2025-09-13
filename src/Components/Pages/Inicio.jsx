@@ -13,7 +13,7 @@ const Inicio = () => {
             </div>
       <Container className='TextoFondoAbogada'>
         <Fade direction="down">
-      <h1>Estudio Cardozo & Asociados
+      <h1 className='h1Font'>Estudio Cardozo & Asociados
 </h1>
 </Fade>
 <h2>

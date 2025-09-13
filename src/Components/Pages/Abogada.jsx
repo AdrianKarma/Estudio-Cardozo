@@ -7,7 +7,9 @@ const Abogada = () => {
         <Container className='d-flex flex-column flex-md-row align-items-center mt-5'>
             {/* Foto */}
             <div className='FotoAbogada mb-3 mb-md-0'>
+               <Fade>
                 <img src={FotoAbogada} alt="Abogada Carla Cardozo" className="img-fluid rounded" />
+                </Fade>
             </div>
 
             {/* Texto */}

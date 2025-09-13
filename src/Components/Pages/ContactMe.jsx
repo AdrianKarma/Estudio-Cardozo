@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
 import emailjs from "@emailjs/browser";
 import { Link } from "react-router-dom";
-
+import { Fade } from "react-awesome-reveal";
 // Asegúrate de usar las claves correctas
 const SERVICE_ID = "service_oequigi";
 const TEMPLATE_ID = "template_sfnxvri";
@@ -51,16 +51,17 @@ const ContactMe = () => {
 
   return (
     <Container className="p-5 containerContact mb-5 regularTextContact" id="ContactMe">
+   
       <Row className="justify-content-left mb-3">
         <Col xs={12}>
+        
           <h2 className="TitleContact">Contáctanos</h2>
-       <p className="subTitleContact">
-  Quedo a su disposición para atender su consulta. Por favor, deje su mensaje y me pondré en contacto con usted a la brevedad.
-</p>
+       
+
 
         </Col>
       </Row>
-
+  <Fade >
       <Form onSubmit={handleSubmit}>
         <Row>
           <Col xs={12} md={8} className="mb-3">
@@ -129,6 +130,7 @@ const ContactMe = () => {
           </Col>
         </Row>
       </Form>
+     </Fade>
     </Container>
   );
 };

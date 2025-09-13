@@ -11,7 +11,7 @@ const Menu = () => {
          <Navbar expand="lg" sticky="top" className="bg-dark w-100 navbarCustom" data-bs-theme="dark" >
 
       <Container fluid>
-        <Navbar.Brand href="#home" className="d-flex align-items-center ms-5">
+        <Navbar.Brand href="#home" className="d-flex align-items-center ">
   <img
     src={logo}
     alt="Logo Estudio Cardozo"
