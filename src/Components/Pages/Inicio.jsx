@@ -7,15 +7,21 @@ import FondoAbogada from "../../assets/Images/FondoCarlaCardozo.jpg"
 import { Fade } from "react-awesome-reveal";
 const Inicio = () => {
     return (
-          <div   className="main  ">
+
+
+        
+          <Container    className="main  ">
             <div className='ConteinerFondoAbogada'>
                 <img src={FondoAbogada} alt="Fondo Estudio Cardozo" className='ConteinerFondoAbogada' />
             </div>
       <Container className='TextoFondoAbogada'>
+     
         <Fade direction="down">
+           
       <h1 className='h1Font'>Estudio Cardozo & Asociados
 </h1>
 </Fade>
+<hr />
 <h2>
     Defendemos tus derechos y acompañamos cada decisión legal con compromiso, experiencia y profesionalismo.
 
@@ -25,13 +31,14 @@ const Inicio = () => {
 </p>
 </Fade>
 <Fade direction='right'>
-<Button type="submit" className="gradient-button ms-5">Contactenos</Button>
+<Button type="submit" href="#ContactMe" className="gradient-button ms-5 mt-3">Contactenos</Button>
         </Fade>
+        
         </Container>
         <Abogada></Abogada>
         <Areas></Areas>
         <ContactMe></ContactMe>
-        </div>
+        </Container>
     );
 };
 

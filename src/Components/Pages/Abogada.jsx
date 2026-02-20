@@ -2,6 +2,8 @@ import React from 'react';
 import FotoAbogada from "../../assets/Images/Abogada.jpg"
 import { Container } from 'react-bootstrap';
 import { Fade } from "react-awesome-reveal";
+import { FaWhatsapp, FaFacebookF } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 const Abogada = () => {
     return (
         <Container className='d-flex flex-column flex-md-row align-items-center mt-5'>
@@ -13,46 +15,52 @@ const Abogada = () => {
             </div>
 
             {/* Texto */}
-            <div className='TextoAbogada ms-md-4 d-flex flex-column'>
+            <Container className='TextoAbogada  d-flex flex-column d-block text-center'>
                <Fade direction='down'>
-                <h2>Dra. Carla Cardozo</h2>
-                <h4>Abogada – Estudio Cardozo & Asociados</h4>
+                
+                <h1 >Dra. Carla Cardozo</h1>
+                <h2>Abogada – Procuradora</h2>
 </Fade>
-                <p>
+                <p >
                     Defiendo tus derechos con compromiso, claridad y cercanía.  
                     Mi misión es que entiendas cada paso de tu proceso legal y te sientas acompañado con confianza y profesionalismo.  
-                    <br />
-                    <strong>[Agendá tu consulta]</strong>
+                    <br />        <br />
+                    <strong className='d-block text-center'>[Agendá tu consulta]</strong>
                 </p>
 
                 {/* Botones de contacto pegados abajo */}
-               <div className='contactoCards d-flex gap-2 mt-auto'>
+               <div className='contactoCards d-block  text-center '>
   <a 
-    href="https://wa.me/5493816585961" 
-    target="_blank" 
-    rel="noopener noreferrer" 
-    className="CardContacto"
-  >
-    Whatsapp
-  </a>
+  href="https://wa.me/5493816585961" 
+  target="_blank" 
+  rel="noopener noreferrer" 
+  className="CardContacto whatsapp mt-2 ms-2"
+>
+  <FaWhatsapp style={{ marginRight: "8px" }} />
+  Whatsapp
+</a>
 
   <a 
     href="https://www.facebook.com/Abogada.Carla.Cardozo" 
     target="_blank" 
     rel="noopener noreferrer" 
-    className="CardContacto"
+    className="CardContacto facebook mt-2 ms-2"
   >
+    <FaFacebookF style={{ marginRight: "8px" }} />
     Facebook
   </a>
 
   <a 
     href="mailto:carla.nazarena.cardozo@gmail.com" 
-    className="CardContacto"
+         target="_blank" 
+    rel="noopener noreferrer" 
+    className="CardContacto gmail mt-2 ms-2" 
   >
+    <MdEmail style={{ marginRight: "8px" }} />
     Email
   </a>
 </div>
-            </div>
+            </Container>
         </Container>
     );
 };

@@ -115,7 +115,7 @@ const ContactMe = () => {
                 />
               </Form.Group>
               <Form.Group className="mb-3">
-                <Form.Check className="itemsform" type="checkbox" label=" I have read and accept the Terms and Conditions." required />
+                <Form.Check className="itemsform" type="checkbox" label=" He leído y acepto los términos y condiciones." required />
               </Form.Group>
               <Form.Text className="d-block mb-3 textPrivacyNotice">
             <Link to="/Terms" target=""  className='linkPrivateNotice'>Terminos y condiciones
