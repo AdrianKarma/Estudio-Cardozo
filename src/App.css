@@ -75,8 +75,8 @@ body, html {
   border: none;
   padding: 0.5rem 1rem;
   font-family: "Lato", sans-serif;
-  font-size: 15px;
-  font-weight: 600;
+   font-size: 1.1rem;
+  font-weight: 500;
   letter-spacing: 0.5px;
   transition: 0.3s ease-in-out;
 }
@@ -127,15 +127,20 @@ body, html {
   background-color: #ECE7E1;
 }
 
-.ConteinerFondoAbogada{
-  width: 100%;
-  height: 600px;
-  object-fit: cover;
-  display: block; 
-  position: relative;
-  filter: blur(2px);
-}
 
+
+.hero-bg__overlay {
+  position: absolute;
+  inset: 0;
+  
+ background: linear-gradient(
+  to bottom,
+  rgba(0,0,0,0.1) 0%,
+  rgba(0,0,0,0.6) 50%,
+  rgba(0,0,0,0.8) 100%
+);
+
+}
 .TextoFondoAbogada{
   position: absolute;
   top: 25vh;
@@ -144,7 +149,45 @@ body, html {
   text-align: center;
 }
 
+.hero {
+  position: relative;
+  min-height: 600px; /* o 70vh si preferís */
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+}
 
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.hero-bg__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transform: scale(1.05); /* evita bordes raros */
+  /* sacá el blur */
+}
+
+
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 900px;
+  padding: 0 24px;
+  text-align: center;
+  color: #fff;
+}
+
+
+.hero-content p {
+  max-width: 700px;
+  margin: 0 auto;
+}
 
 .navbarCustom{
   background-color: rgba(0, 0, 0, 0.95)!important ;
@@ -187,4 +230,22 @@ body, p, li {
 label, input, button {
   font-family: "Lato", sans-serif;
   font-size: 15px;
+}
+.info-profesional {
+  font-size: 0.95rem;
+  opacity: 0.75;
+  margin-bottom: 4px;
+}
+
+.section-title {
+ 
+  text-align: center;
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+}
+
+.section-subtitle {
+  text-align: center;
+  opacity: 0.7;
+  margin-bottom: 40px;
 }

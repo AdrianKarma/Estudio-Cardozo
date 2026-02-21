@@ -11,10 +11,13 @@ const Inicio = () => {
 
         
           <Container    className="main  ">
-            <div className='ConteinerFondoAbogada'>
-                <img src={FondoAbogada} alt="Fondo Estudio Cardozo" className='ConteinerFondoAbogada' />
+            <section   className="  hero">
+            <div className='hero-bg'>
+                <img src={FondoAbogada} alt="Fondo Estudio Cardozo" className='hero-bg__img' />
+            <div className="hero-bg__overlay" />
             </div>
-      <Container className='TextoFondoAbogada'>
+
+      <div className='hero-content'>
      
         <Fade direction="down">
            
@@ -27,14 +30,18 @@ const Inicio = () => {
 
 </h2>
 <Fade direction='up'>
-<p>En nuestro estudio trabajamos con seriedad, ética y cercanía para brindar soluciones jurídicas claras y efectivas. Cada caso es único, y nuestro objetivo es acompañarte con asesoramiento personalizado, protegiendo lo que más valorás.
+<p>Brindamos soluciones jurídicas claras y personalizadas, con ética y cercanía en cada caso.
 </p>
 </Fade>
 <Fade direction='right'>
 <Button type="submit" href="#ContactMe" className="gradient-button ms-5 mt-3">Contactenos</Button>
+      <small className="hero-trust">
+  Respuesta en menos de 24 hs · Atención personalizada
+</small>
         </Fade>
         
-        </Container>
+        </div>
+        </section>
         <Abogada></Abogada>
         <Areas></Areas>
         <ContactMe></ContactMe>

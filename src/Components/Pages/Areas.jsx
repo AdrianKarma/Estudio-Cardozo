@@ -5,6 +5,11 @@ const Areas = () => {
   return (
     <Container className="mt-5">
      
+  <h2 className="section-title ">Áreas de práctica</h2>
+  <p className="section-subtitle">
+    Asesoramiento y representación legal en las siguientes áreas:
+  </p>
+
           <div className="row justify-content-center">
            
         <div className="col-12 col-sm-6 col-lg-3 mb-4 ">
@@ -15,9 +20,9 @@ const Areas = () => {
               <Card.Title className='mb-5'>Familia</Card.Title>
               
               <Card.Text>
-                Acompañamos en temas de divorcios, adopciones y regímenes de visitas, buscando soluciones claras y justas para toda la familia.
+               Te acompañamos en divorcios, regímenes de visitas y acuerdos familiares, buscando soluciones claras y justas para vos y tu familia.
               </Card.Text>
-          <Button type="submit" className="gradient-button">Más Información</Button>
+          <Button type="submit" className="gradient-button">Ver más detalles</Button>
             
             </Card.Body>
           </Card></Fade>
@@ -32,9 +37,9 @@ const Areas = () => {
               <Card.Title className='mb-5'>Laboral</Card.Title>
               
               <Card.Text>
-                Brindamos orientación en contratos, obligaciones y resolución de conflictos, protegiendo tus intereses en cada situación legal.
+             Te asesoramos ante despidos, conflictos laborales y reclamos salariales, defendiendo tus derechos en cada etapa.
               </Card.Text>
-                   <Button type="submit" className="gradient-button">Más Información</Button>
+                   <Button type="submit" className="gradient-button">Ver más detalles</Button>
               
             </Card.Body>
           </Card></Fade>
@@ -48,9 +53,9 @@ const Areas = () => {
               <Card.Title className='mb-5'>Civil y Comercial</Card.Title>
              
               <Card.Text>
-              Asesoramos en contratos, obligaciones civiles y comerciales, así como en conflictos legales relacionados con bienes, sociedades y negocios.
+            Asesoramiento en contratos, alquileres, deudas y conflictos comerciales, brindando soluciones claras y seguras.
               </Card.Text>
-                  <Button type="submit" className="gradient-button">Más Información</Button>
+                  <Button type="submit" className="gradient-button">Ver más detalles</Button>
              
             </Card.Body>
           </Card></Fade>
@@ -64,9 +69,9 @@ const Areas = () => {
               <Card.Title className='mb-5'>Penal</Card.Title>
              
               <Card.Text>
-              Defendemos tus derechos en procesos penales, tanto como víctima o imputado, garantizando un asesoramiento serio y cercano.              
+             Defensa y acompañamiento en procesos penales, tanto si sos víctima como imputado, con asesoramiento serio y cercano.
               </Card.Text>
-              <Button type="submit" className="gradient-button">Más Información</Button>
+              <Button type="submit" className="gradient-button">Ver más detalles</Button>
         
             </Card.Body>
           </Card></Fade>

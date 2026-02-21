@@ -20,11 +20,11 @@ const Abogada = () => {
                 
                 <h1 >Dra. Carla Cardozo</h1>
                 <h2>Abogada – Procuradora</h2>
+                <p className="info-profesional">M.P. Nº 10560 – Colegio de Abogados de Tucumán  </p>
+               <p className="info-profesional">Egresada de la Universidad Nacional de Tucumán</p>
 </Fade>
-                <p >
-                    Defiendo tus derechos con compromiso, claridad y cercanía.  
-                    Mi misión es que entiendas cada paso de tu proceso legal y te sientas acompañado con confianza y profesionalismo.  
-                    <br />        <br />
+                <p className='mt-4'>
+                  Brindo asesoramiento jurídico personalizado, con seguimiento directo y compromiso en cada etapa del proceso.
                     <strong className='d-block text-center'>[Agendá tu consulta]</strong>
                 </p>
 
