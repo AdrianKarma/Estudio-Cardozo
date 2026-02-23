@@ -5,6 +5,7 @@ import Areas from './Areas';
 import ContactMe from './ContactMe';
 import FondoAbogada from "../../assets/Images/FondoCarlaCardozo.jpg"
 import { Fade } from "react-awesome-reveal";
+import MapaEstudio from './MapaEstudio';
 const Inicio = () => {
     return (
 
@@ -34,7 +35,7 @@ const Inicio = () => {
 </p>
 </Fade>
 <Fade direction='right'>
-<Button type="submit" href="#ContactMe" className="gradient-button ms-5 mt-3">Contactenos</Button>
+<Button type="submit" href="#ContactMe" className="gradient-button  mt-3">Contactenos</Button>
       <small className="hero-trust">
   Respuesta en menos de 24 hs · Atención personalizada
 </small>
@@ -44,6 +45,7 @@ const Inicio = () => {
         </section>
         <Abogada></Abogada>
         <Areas></Areas>
+        <MapaEstudio></MapaEstudio>
         <ContactMe></ContactMe>
         </Container>
     );
