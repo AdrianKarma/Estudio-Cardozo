@@ -51,10 +51,9 @@ const Menu = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto me-5" onClick={closeMenu}>
             <Nav.Link href="#home">Inicio</Nav.Link>
-            <Nav.Link href="#servicios">Servicios</Nav.Link>
-            <Nav.Link href="#nosotros">Nosotros</Nav.Link>
-            <Nav.Link href="#faq">FAQ</Nav.Link>
-            <Nav.Link href="#contacto">Contacto</Nav.Link>
+            <Nav.Link href="#Areas">Servicios</Nav.Link>
+            <Nav.Link href="#AboutMe">Nosotros</Nav.Link>            
+            <Nav.Link href="#ContactMe">Contacto</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

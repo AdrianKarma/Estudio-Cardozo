@@ -249,3 +249,82 @@ label, input, button {
   opacity: 0.7;
   margin-bottom: 40px;
 }
+
+.termsModal{
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100dvh; /* mejor en mobile */
+  background: rgba(0,0,0,.65);
+  z-index: 999999;
+  display: grid;
+  place-items: center;
+  padding: 16px;
+}
+
+/* Caja del modal */
+.termsModal__dialog{
+  width: min(92vw, 720px);
+  max-height: calc(100dvh - 32px);
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0,0,0,.35);
+  display: flex;
+  flex-direction: column;
+}
+
+.termsModal__header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 14px 16px;
+  border-bottom: 1px solid #eee;
+}
+
+.termsModal__title{
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.termsModal__close{
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 10px;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.termsModal__body{
+  padding: 14px 16px;
+  overflow: auto; /* importante: scroll interno */
+  -webkit-overflow-scrolling: touch;
+  flex: 1;
+  line-height: 1.5;
+}
+
+.termsModal__footer{
+  padding: 12px 16px;
+  border-top: 1px solid #eee;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.termsModal__btn{
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 10px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+/* Ajustá este valor al alto real de tu navbar */
+
+
+/* A todas las secciones con id */
+#home, #Areas, #AboutMe, #ContactMe {
+  scroll-margin-top: 250px;
+}
+

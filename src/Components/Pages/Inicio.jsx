@@ -11,7 +11,7 @@ const Inicio = () => {
 
 
         
-          <Container    className="main  ">
+          <Container    className="main  " id='home'>
             <section   className="  hero">
             <div className='hero-bg'>
                 <img src={FondoAbogada} alt="Fondo Estudio Cardozo" className='hero-bg__img' />
