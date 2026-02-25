@@ -1,5 +1,5 @@
 import React from 'react';
-import FotoAbogada from "../../assets/Images/Abogada.jpg"
+import FotoAbogada from "../../assets/Images/Abogada2.jpg"
 import { Container } from 'react-bootstrap';
 import { Fade } from "react-awesome-reveal";
 import { FaWhatsapp, FaFacebookF } from "react-icons/fa";
